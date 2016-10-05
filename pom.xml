@@ -11,14 +11,14 @@
     <packaging>jar</packaging>
     <groupId>org.webjars</groupId>
     <artifactId>iframe-resizer</artifactId>
-    <version>3.4.3-SNAPSHOT</version>
+    <version>3.5.0-SNAPSHOT</version>
     <name>iFrame Resizer</name>
     <description>WebJar for iFrame Resizer</description>
     <url>http://webjars.org</url>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <upstream.version>3.4.2</upstream.version>
+        <upstream.version>3.5.0</upstream.version>
         <upstream.url>https://github.com/davidjbradshaw/iframe-resizer/archive/v${upstream.version}.zip</upstream.url>
         <destDir>${project.build.outputDirectory}/META-INF/resources/webjars/${project.artifactId}/${project.version}</destDir>
         <requirejs>
@@ -61,6 +61,7 @@
             <groupId>org.webjars</groupId>
             <artifactId>jquery</artifactId>
             <version>[1.6,)</version>
+            <optional>true</optional>
         </dependency>
     </dependencies>
 

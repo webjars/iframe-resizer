@@ -61,6 +61,7 @@
             <groupId>org.webjars</groupId>
             <artifactId>jquery</artifactId>
             <version>[1.6,)</version>
+            <optional>true</optional>
         </dependency>
     </dependencies>
 
